@@ -2,7 +2,7 @@ name: Auto Score
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Temporary schedule verification; restore daily after the first scheduled run
+    - cron: '2-57/5 * * * *'  # Temporary schedule verification; restore daily after the first scheduled run
   workflow_dispatch:
 
 concurrency:
